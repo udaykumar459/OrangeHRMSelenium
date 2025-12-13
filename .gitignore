@@ -1,0 +1,27 @@
+# Maven target directory
+target/
+
+# Test reports
+reports/
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# Logs
+logs/
+*.log
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
