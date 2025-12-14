@@ -25,11 +25,11 @@ public class HomePageTest extends BaseClass{
 	
 	
 	@Test
-	public void verifyLogo() {
+	public void verifyHomePage() {
 //		ExtentManager.startTest("Verifying home page logo");
 		loginPage.login("admin", "admin123");
 		ExtentManager.logStep("login successul");
-		assertTrue(homePage.isLogoDisplayed(), "Logo is not displayed in home page");
+		assertTrue(homePage.isAdminTabDisplayed(), "admin tab is not displayed in home page");
 		ExtentManager.logStep("Logo is displayed in home page");
 	}
 	
